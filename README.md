@@ -1,11 +1,7 @@
 symphonytool.github.io
 ======================
 
-This repository corresponds to the pages hosted here (at GitHub) for
-the Symphony IDE.  The direct access address will be symphonytool.org,
-but for the moment we're using the bare github.io address (DNS config
-needs to be done).
+[The Symphony IDE Website][1] is found at http://symphonytool.org, and is hosted on GitHub Pages.  This repository corresponds to the content of the website; changes made here will appear there.
 
-So, [The Symphony IDE Website](http://symphonytool.github.io/).
-
+[1]: http://symphonytool.org/
 
