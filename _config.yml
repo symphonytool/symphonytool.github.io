@@ -1,0 +1,18 @@
+#highligher: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables","smart","no_intra_emphasis","fenced_code_blocks","autolink"]
+encoding: utf-8
+url: http://symphonytool.org
+#url: http://localhost:4000
+timezone: Europe/Copenhagen
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+collections:
+  examples:
+    output: true
+    
