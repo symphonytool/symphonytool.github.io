@@ -10,7 +10,7 @@ This example comes from the book "Formal Software Development: From VDM to Java"
 | | |
 |------|-------|
 |Author:|Quentin Charatan and Aaron Kans|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](AccountSys/AccountSys.zip)  / [show specification](AccountSys/index.html)|
 
 
@@ -21,7 +21,7 @@ This example comes from the book "Formal Software Development: From VDM to Java"
 | | |
 |------|-------|
 |Author:|Quentin Charatan and Aaron Kans|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](Airport/Airport.zip)  / [show specification](Airport/index.html)|
 
 
@@ -32,7 +32,7 @@ This is the alarm example from the VDM-SL book, John Fitzgerald and Peter Gorm L
 | | |
 |------|-------|
 |Author:|John Fitzgerald and Peter Gorm Larsen|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](Alarm/Alarm.zip)  / [show specification](Alarm/index.html)|
 
 
@@ -43,7 +43,7 @@ This is an example produced entirely inside the COMPASS project. The example ill
 | | |
 |------|-------|
 |Author:|Klaus Kristensen|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](AVDeviceDiscovery/AVDeviceDiscovery.zip)  / [show specification](AVDeviceDiscovery/index.html)|
 
 
@@ -54,7 +54,7 @@ This is an example produced entirely inside the COMPASS project. The example ill
 | | |
 |------|-------|
 |Author:|Klaus Kristensen|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](AVDeviceDiscovery_MC/AVDeviceDiscovery_MC.zip)  / [show specification](AVDeviceDiscovery_MC/index.html)|
 
 
@@ -65,7 +65,7 @@ This is an example produced entirely inside the COMPASS project. The example ill
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](BEOCoSimulation_MC/BEOCoSimulation_MC.zip)  / [show specification](BEOCoSimulation_MC/index.html)|
 
 
@@ -76,7 +76,7 @@ This is an example produced entirely inside the COMPASS project. The example ill
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](BEOStreaming_MC/BEOStreaming_MC.zip)  / [show specification](BEOStreaming_MC/index.html)|
 
 
@@ -93,7 +93,7 @@ In the current version there are a number of proof obligations generated that yo
 | | |
 |------|-------|
 |Author:|Jim Woodcock|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](BitRegister/BitRegister.zip)  / [show specification](BitRegister/index.html)|
 
 
@@ -104,19 +104,8 @@ In the current version there are a number of proof obligations generated that yo
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](BitRegister_MC/BitRegister_MC.zip)  / [show specification](BitRegister_MC/index.html)|
-
-
-### ChoiceSupportInDebugger
-
-
-
-| | |
-|------|-------|
-|Author:||
-|Version:|CML - classic|
-|Details...|[model (zip)](ChoiceSupportInDebugger/ChoiceSupportInDebugger.zip)  / [show specification](ChoiceSupportInDebugger/index.html)|
 
 
 ### ConwayOlympian
@@ -131,7 +120,7 @@ A CML version of this was produced by Peter Gorm Larsen but no graphical user in
 | | |
 |------|-------|
 |Author:|Peter Gorm Larsen, Claus Ballegaard Nielsen and Nick Battle|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](ConwayOlympian/ConwayOlympian.zip)  / [show specification](ConwayOlympian/index.html)|
 
 
@@ -142,7 +131,7 @@ A CML version of this was produced by Peter Gorm Larsen but no graphical user in
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](DataFlow/DataFlow.zip)  / [show specification](DataFlow/index.html)|
 
 
@@ -153,7 +142,7 @@ A CML version of this was produced by Peter Gorm Larsen but no graphical user in
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](Dphils_MC/Dphils_MC.zip)  / [show specification](Dphils_MC/index.html)|
 
 
@@ -167,7 +156,7 @@ workshop. The CML model of this has been produced jointly by Peter Gorm Larsen, 
 | | |
 |------|-------|
 |Author:|Peter Gorm Larsen|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](Dwarf/Dwarf.zip)  / [show specification](Dwarf/index.html)|
 
 
@@ -178,7 +167,7 @@ workshop. The CML model of this has been produced jointly by Peter Gorm Larsen, 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](FaultTolerance/FaultTolerance.zip)  / [show specification](FaultTolerance/index.html)|
 
 
@@ -192,7 +181,7 @@ The CML model is written by Jim Woodcock.
 | | |
 |------|-------|
 |Author:|Jim Woodcock|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](Frogs/Frogs.zip)  / [show specification](Frogs/index.html)|
 
 
@@ -203,7 +192,7 @@ The CML model is written by Jim Woodcock.
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](HotelLock/HotelLock.zip)  / [show specification](HotelLock/index.html)|
 
 
@@ -216,7 +205,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:|Quentin Charatan and Aaron Kans|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](IncubatorController/IncubatorController.zip)  / [show specification](IncubatorController/index.html)|
 
 
@@ -227,7 +216,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](IncubatorMonitor/IncubatorMonitor.zip)  / [show specification](IncubatorMonitor/index.html)|
 
 
@@ -238,7 +227,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](InfComm_MC/InfComm_MC.zip)  / [show specification](InfComm_MC/index.html)|
 
 
@@ -249,7 +238,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](InsielCUSSoS_FT/InsielCUSSoS_FT.zip)  / [show specification](InsielCUSSoS_FT/index.html)|
 
 
@@ -260,7 +249,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](InsielCUSSoS_MC/InsielCUSSoS_MC.zip)  / [show specification](InsielCUSSoS_MC/index.html)|
 
 
@@ -271,7 +260,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](LevelCrossing/LevelCrossing.zip)  / [show specification](LevelCrossing/index.html)|
 
 
@@ -282,7 +271,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](Library/Library.zip)  / [show specification](Library/index.html)|
 
 
@@ -293,7 +282,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](MiniMondex/MiniMondex.zip)  / [show specification](MiniMondex/index.html)|
 
 
@@ -304,7 +293,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](PatientRegister/PatientRegister.zip)  / [show specification](PatientRegister/index.html)|
 
 
@@ -315,7 +304,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](ProcessManager/ProcessManager.zip)  / [show specification](ProcessManager/index.html)|
 
 
@@ -326,7 +315,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](RingBuffer/RingBuffer.zip)  / [show specification](RingBuffer/index.html)|
 
 
@@ -337,7 +326,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](Scheduler/Scheduler.zip)  / [show specification](Scheduler/index.html)|
 
 
@@ -348,7 +337,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](Sieve/Sieve.zip)  / [show specification](Sieve/index.html)|
 
 
@@ -359,7 +348,7 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:||
-|Version:|CML - classic|
+|Version:|CML|
 |Details...|[model (zip)](Simple-Minimondex/Simple-Minimondex.zip)  / [show specification](Simple-Minimondex/index.html)|
 
 
@@ -370,17 +359,5 @@ This is the standard stack example written in CML. If you wish to play with this
 | | |
 |------|-------|
 |Author:|Peter Gorm Larsen|
-|Version:|CML - cml|
+|Version:|CML|
 |Details...|[model (zip)](Stack/Stack.zip)  / [show specification](Stack/index.html)|
-
-
-### Tests
-
-
-
-| | |
-|------|-------|
-|Author:||
-|Version:|CML - classic|
-|Details...|[model (zip)](Tests/Tests.zip)  / [show specification](Tests/index.html)|
-
