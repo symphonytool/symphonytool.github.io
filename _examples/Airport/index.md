@@ -7,7 +7,7 @@ title: Airport
 Author: Quentin Charatan and Aaron Kans
 
 
-This example comes from the book "Formal Software Development: From VDM to Java" written by Quentin Charatan and Aaron Kans. This example illustrate how to model the air traffic control of an airport at a very high level of abstraction. The CML model has been made by Jim Woodcock including adding the reactive behaviour.
+This example comes from the book "Formal Software Development: From VDM to Java" written by Quentin Charatan and Aaron Kans. This example illustrate how to model the air traffic control of an airport at a very high level of abstraction. The CML model has been made by Jim Woodcock including adding the reactive behaviour. 
 
 
 

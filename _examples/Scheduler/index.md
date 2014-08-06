@@ -4,14 +4,15 @@ title: Scheduler
 ---
 
 ## Scheduler
-Author: 
+Author: Jim Woodcock
 
 
+This system schedules a collection of processes to ensure that only one is in a critical region for using some resource. The system shows how to build a network of processes and run the execution engine to test the result. A refinement is to require that the processes are permitted to enter the critical region in the order in which they became ready to do so. The idiom used here is to strengthen the behaviour of the system by adding a process in parallel that constrains behaviour as required. The result is a formal refinement. This example comes from the book "Formal Software Development: From VDM to Java" written by Quentin Charatan and Aaron Kans. 
 
 
 | Properties | Values          |
 | :------------ | :---------- |
-|Language Version:| classic|
+|Language Version:| cml|
 
 
 ### Scheduler.cml

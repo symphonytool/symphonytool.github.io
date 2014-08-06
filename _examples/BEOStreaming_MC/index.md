@@ -7,11 +7,12 @@ title: BEOStreaming_MC
 Author: 
 
 
+This project needs a description.
 
 
 | Properties | Values          |
 | :------------ | :---------- |
-|Language Version:| classic|
+|Language Version:| cml|
 
 
 ### BEO_StreamingSoS_MC.cml

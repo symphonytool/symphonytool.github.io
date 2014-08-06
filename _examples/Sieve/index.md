@@ -4,14 +4,15 @@ title: Sieve
 ---
 
 ## Sieve
-Author: 
+Author: Jim Woodcock
 
 
+The prime number generator is based on the classic algorithm of the Sieve of Eratosthenes, but implemented in a dynamic systolic array. The example shows how to use concurrency, recursion, and hiding together in quite a subtle way to implement an infinite computation in a lazy, reactive behaviour. It shows how to encode the use of dynamic channel and process creation with tokens, important idioms in CML for this pattern for reconfigurable systems. 
 
 
 | Properties | Values          |
 | :------------ | :---------- |
-|Language Version:| classic|
+|Language Version:| cml|
 
 
 ### Sieve.cml

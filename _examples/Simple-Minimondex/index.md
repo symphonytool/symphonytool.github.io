@@ -4,14 +4,25 @@ title: Simple-Minimondex
 ---
 
 ## Simple-Minimondex
-Author: 
+Author: Jim Woodcock
 
 
+This CML model has been developed by Jim Woodcock inspired by the original work done with the Mondex secure card system (see [Stepney&00,Woodcock&08a]. In 1994, National Westminster Bank developed an electronic
+purse (or smart card) system, called Mondex. An
+electronic purse is a card-sized device intended to replace "real"
+coins with electronic cash. In contrast to a credit or debit card,
+an electronic purse stores its balance in itself, thus does not 
+necessarily require any network access to update a remote database
+during a transaction. So, electronic purses can be used in small
+stores or shops, such as bakeries, where small amounts of money
+are involved. In the CML model here however, the different potential faults that could happen in these transactions are not taken into account.
+
+When debugging the MiniMondex example one will get an option to select between ten different cards that wish to transfer an amount of money to another card. Here you can experiment with transferring money between cards and see how it can communicate either over the accept or the reject channel. Experiment with sending money from a card to itself and with transferring more money than the amount left on a particular Card.
 
 
 | Properties | Values          |
 | :------------ | :---------- |
-|Language Version:| classic|
+|Language Version:| cml|
 
 
 ### simpler-minimondex.cml

@@ -4,13 +4,14 @@ title: CML Examples
 ---
 
 ### AccountSys
-This example comes from the book "Formal Software Development: From VDM to Java" written by Quentin Charatan and Aaron Kans. This example illustrate how to model bank accounts and transactions made on these as a series of deposits and withdrawals. The CML model has been made by Peter Gorm Larsen.
+This example comes from the book "Formal Software Development: From VDM to Java" written by Quentin Charatan and Aaron Kans. This example illustrate how to model bank accounts and transactions made on these as a series of deposits and withdrawals. The CML model has been made by Peter Gorm Larsen. This example illustrate the use of records with invariants and
+a state with the bank accounts indexed over the account number. All the operations are
+defined implicitly. However the reactive part is not defined so that is left as an exercise for the reader.
 
 
 | | |
 |------|-------|
 |Author:|Quentin Charatan and Aaron Kans|
-|Version:|CML|
 |Details...|[model (zip)](AccountSys/AccountSys.zip)  / [show specification](AccountSys/index.html)|
 
 
@@ -21,7 +22,6 @@ This example comes from the book "Formal Software Development: From VDM to Java"
 | | |
 |------|-------|
 |Author:|Quentin Charatan and Aaron Kans|
-|Version:|CML|
 |Details...|[model (zip)](Airport/Airport.zip)  / [show specification](Airport/index.html)|
 
 
@@ -32,7 +32,6 @@ This is the alarm example from the VDM-SL book, John Fitzgerald and Peter Gorm L
 | | |
 |------|-------|
 |Author:|John Fitzgerald and Peter Gorm Larsen|
-|Version:|CML|
 |Details...|[model (zip)](Alarm/Alarm.zip)  / [show specification](Alarm/index.html)|
 
 
@@ -43,7 +42,6 @@ This is an example produced entirely inside the COMPASS project. The example ill
 | | |
 |------|-------|
 |Author:|Klaus Kristensen|
-|Version:|CML|
 |Details...|[model (zip)](AVDeviceDiscovery/AVDeviceDiscovery.zip)  / [show specification](AVDeviceDiscovery/index.html)|
 
 
@@ -54,29 +52,26 @@ This is an example produced entirely inside the COMPASS project. The example ill
 | | |
 |------|-------|
 |Author:|Klaus Kristensen|
-|Version:|CML|
 |Details...|[model (zip)](AVDeviceDiscovery_MC/AVDeviceDiscovery_MC.zip)  / [show specification](AVDeviceDiscovery_MC/index.html)|
 
 
 ### BEOCoSimulation_MC
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](BEOCoSimulation_MC/BEOCoSimulation_MC.zip)  / [show specification](BEOCoSimulation_MC/index.html)|
 
 
 ### BEOStreaming_MC
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](BEOStreaming_MC/BEOStreaming_MC.zip)  / [show specification](BEOStreaming_MC/index.html)|
 
 
@@ -93,18 +88,16 @@ In the current version there are a number of proof obligations generated that yo
 | | |
 |------|-------|
 |Author:|Jim Woodcock|
-|Version:|CML|
 |Details...|[model (zip)](BitRegister/BitRegister.zip)  / [show specification](BitRegister/index.html)|
 
 
 ### BitRegister_MC
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](BitRegister_MC/BitRegister_MC.zip)  / [show specification](BitRegister_MC/index.html)|
 
 
@@ -120,29 +113,26 @@ A CML version of this was produced by Peter Gorm Larsen but no graphical user in
 | | |
 |------|-------|
 |Author:|Peter Gorm Larsen, Claus Ballegaard Nielsen and Nick Battle|
-|Version:|CML|
 |Details...|[model (zip)](ConwayOlympian/ConwayOlympian.zip)  / [show specification](ConwayOlympian/index.html)|
 
 
 ### DataFlow
-
+The data flow machine transforms its sequence of values in its input channel into a sequence of computations in its output channel. It shows how the use of parallel processes can speed up the computation. An important idiom is introduced: the use of ghost variables and a ghost process to demonstrate the correctness of the computation. A second important idiom is the use of data independence in model checking: the behaviour of the data flow machine does not depend on decisions taken on the basis of its inputs, it merely transforms the data. This means that checks for deadlock and livelock freedom of the network of processes in the machine can be carried out with synchronisations rather than communications. In this case, the infinite state data flow machine can be easily model checked with only 24 states.
 
 
 | | |
 |------|-------|
-|Author:||
-|Version:|CML|
+|Author:|Jim Woodcock|
 |Details...|[model (zip)](DataFlow/DataFlow.zip)  / [show specification](DataFlow/index.html)|
 
 
 ### Dphils_MC
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](Dphils_MC/Dphils_MC.zip)  / [show specification](Dphils_MC/index.html)|
 
 
@@ -156,18 +146,16 @@ workshop. The CML model of this has been produced jointly by Peter Gorm Larsen, 
 | | |
 |------|-------|
 |Author:|Peter Gorm Larsen|
-|Version:|CML|
 |Details...|[model (zip)](Dwarf/Dwarf.zip)  / [show specification](Dwarf/index.html)|
 
 
 ### FaultTolerance
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](FaultTolerance/FaultTolerance.zip)  / [show specification](FaultTolerance/index.html)|
 
 
@@ -181,18 +169,16 @@ The CML model is written by Jim Woodcock.
 | | |
 |------|-------|
 |Author:|Jim Woodcock|
-|Version:|CML|
 |Details...|[model (zip)](Frogs/Frogs.zip)  / [show specification](Frogs/index.html)|
 
 
 ### HotelLock
-
+The final example is rather larger than the other examples: it models the card-key system found in most hotels, where there is no network connecting locks to the front desk, and yet a security property emerges. This demonstrates an idiom for emergence in CML, with an abstract, Olympian view of the specification satisfying a global invariant that is then completely distributed to components that interact only indirectly. Modelling idioms presented include restricting communicable values on channels and debugging techniques for tracing behaviour through parallel processes.
 
 
 | | |
 |------|-------|
-|Author:||
-|Version:|CML|
+|Author:|Jim Woodcock and Peter Gorm Larsen|
 |Details...|[model (zip)](HotelLock/HotelLock.zip)  / [show specification](HotelLock/index.html)|
 
 
@@ -205,150 +191,146 @@ The IncubatorController process can be debugged but no input is expected from th
 | | |
 |------|-------|
 |Author:|Quentin Charatan and Aaron Kans|
-|Version:|CML|
 |Details...|[model (zip)](IncubatorController/IncubatorController.zip)  / [show specification](IncubatorController/index.html)|
 
 
 ### IncubatorMonitor
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](IncubatorMonitor/IncubatorMonitor.zip)  / [show specification](IncubatorMonitor/index.html)|
 
 
 ### InfComm_MC
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](InfComm_MC/InfComm_MC.zip)  / [show specification](InfComm_MC/index.html)|
 
 
 ### InsielCUSSoS_FT
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](InsielCUSSoS_FT/InsielCUSSoS_FT.zip)  / [show specification](InsielCUSSoS_FT/index.html)|
 
 
 ### InsielCUSSoS_MC
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](InsielCUSSoS_MC/InsielCUSSoS_MC.zip)  / [show specification](InsielCUSSoS_MC/index.html)|
 
 
 ### LevelCrossing
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](LevelCrossing/LevelCrossing.zip)  / [show specification](LevelCrossing/index.html)|
 
 
 ### Library
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](Library/Library.zip)  / [show specification](Library/index.html)|
 
 
 ### MiniMondex
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](MiniMondex/MiniMondex.zip)  / [show specification](MiniMondex/index.html)|
 
 
 ### PatientRegister
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](PatientRegister/PatientRegister.zip)  / [show specification](PatientRegister/index.html)|
 
 
 ### ProcessManager
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](ProcessManager/ProcessManager.zip)  / [show specification](ProcessManager/index.html)|
 
 
 ### RingBuffer
-
+This project needs a description.
 
 
 | | |
 |------|-------|
 |Author:||
-|Version:|CML|
 |Details...|[model (zip)](RingBuffer/RingBuffer.zip)  / [show specification](RingBuffer/index.html)|
 
 
 ### Scheduler
-
+This system schedules a collection of processes to ensure that only one is in a critical region for using some resource. The system shows how to build a network of processes and run the execution engine to test the result. A refinement is to require that the processes are permitted to enter the critical region in the order in which they became ready to do so. The idiom used here is to strengthen the behaviour of the system by adding a process in parallel that constrains behaviour as required. The result is a formal refinement. This example comes from the book "Formal Software Development: From VDM to Java" written by Quentin Charatan and Aaron Kans.
 
 
 | | |
 |------|-------|
-|Author:||
-|Version:|CML|
+|Author:|Jim Woodcock|
 |Details...|[model (zip)](Scheduler/Scheduler.zip)  / [show specification](Scheduler/index.html)|
 
 
 ### Sieve
-
+The prime number generator is based on the classic algorithm of the Sieve of Eratosthenes, but implemented in a dynamic systolic array. The example shows how to use concurrency, recursion, and hiding together in quite a subtle way to implement an infinite computation in a lazy, reactive behaviour. It shows how to encode the use of dynamic channel and process creation with tokens, important idioms in CML for this pattern for reconfigurable systems.
 
 
 | | |
 |------|-------|
-|Author:||
-|Version:|CML|
+|Author:|Jim Woodcock|
 |Details...|[model (zip)](Sieve/Sieve.zip)  / [show specification](Sieve/index.html)|
 
 
 ### Simple-Minimondex
+This CML model has been developed by Jim Woodcock inspired by the original work done with the Mondex secure card system (see [Stepney&00,Woodcock&08a]. In 1994, National Westminster Bank developed an electronic
+purse (or smart card) system, called Mondex. An
+electronic purse is a card-sized device intended to replace "real"
+coins with electronic cash. In contrast to a credit or debit card,
+an electronic purse stores its balance in itself, thus does not 
+necessarily require any network access to update a remote database
+during a transaction. So, electronic purses can be used in small
+stores or shops, such as bakeries, where small amounts of money
+are involved. In the CML model here however, the different potential faults that could happen in these transactions are not taken into account.
 
+When debugging the MiniMondex example one will get an option to select between ten different cards that wish to transfer an amount of money to another card. Here you can experiment with transferring money between cards and see how it can communicate either over the accept or the reject channel. Experiment with sending money from a card to itself and with transferring more money than the amount left on a particular Card.
 
 
 | | |
 |------|-------|
-|Author:||
-|Version:|CML|
+|Author:|Jim Woodcock|
 |Details...|[model (zip)](Simple-Minimondex/Simple-Minimondex.zip)  / [show specification](Simple-Minimondex/index.html)|
 
 
@@ -359,5 +341,5 @@ This is the standard stack example written in CML. If you wish to play with this
 | | |
 |------|-------|
 |Author:|Peter Gorm Larsen|
-|Version:|CML|
 |Details...|[model (zip)](Stack/Stack.zip)  / [show specification](Stack/index.html)|
+

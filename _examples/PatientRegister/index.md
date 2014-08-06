@@ -7,11 +7,12 @@ title: PatientRegister
 Author: 
 
 
+This project needs a description.
 
 
 | Properties | Values          |
 | :------------ | :---------- |
-|Language Version:| classic|
+|Language Version:| cml|
 
 
 ### PatientRegister.cml
