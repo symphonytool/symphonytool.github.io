@@ -11,11 +11,6 @@ This is an example produced entirely inside the COMPASS project. The example ill
 
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### BeoAVDeviceDiscovery_final_version_model_checker.cml
 
 {% raw %}

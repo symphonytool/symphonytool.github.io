@@ -14,11 +14,6 @@ The CML model is written by Jim Woodcock.
 
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### Frogs.cml
 
 {% raw %}

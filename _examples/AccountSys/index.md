@@ -13,11 +13,6 @@ defined implicitly. However the reactive part is not defined so that is left as 
 
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### AccountSys.cml
 
 {% raw %}

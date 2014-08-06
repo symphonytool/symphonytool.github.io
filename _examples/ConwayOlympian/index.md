@@ -16,11 +16,6 @@ A CML version of this was produced by Peter Gorm Larsen but no graphical user in
 
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### Conway.cml
 
 {% raw %}

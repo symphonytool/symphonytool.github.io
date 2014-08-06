@@ -20,11 +20,6 @@ are involved. In the CML model here however, the different potential faults that
 When debugging the MiniMondex example one will get an option to select between ten different cards that wish to transfer an amount of money to another card. Here you can experiment with transferring money between cards and see how it can communicate either over the accept or the reject channel. Experiment with sending money from a card to itself and with transferring more money than the amount left on a particular Card.
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### simpler-minimondex.cml
 
 {% raw %}

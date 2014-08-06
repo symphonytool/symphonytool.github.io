@@ -10,11 +10,6 @@ Author:
 This project needs a description.
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### CUSSoS_MC.cml
 
 {% raw %}

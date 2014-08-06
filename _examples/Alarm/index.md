@@ -11,11 +11,6 @@ This is the alarm example from the VDM-SL book, John Fitzgerald and Peter Gorm L
 
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### Alarm.cml
 
 {% raw %}

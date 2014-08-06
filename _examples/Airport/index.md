@@ -11,11 +11,6 @@ This example comes from the book "Formal Software Development: From VDM to Java"
 
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### Airport.cml
 
 {% raw %}

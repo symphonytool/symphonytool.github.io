@@ -11,11 +11,6 @@ This is the standard stack example written in CML. If you wish to play with this
 
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### Stack.cml
 
 {% raw %}

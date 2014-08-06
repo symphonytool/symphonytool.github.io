@@ -17,11 +17,6 @@ In the current version there are a number of proof obligations generated that yo
 
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### BitRegisterProc.cml
 
 {% raw %}

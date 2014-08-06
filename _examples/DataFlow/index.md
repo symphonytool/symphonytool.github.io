@@ -10,11 +10,6 @@ Author: Jim Woodcock
 The data flow machine transforms its sequence of values in its input channel into a sequence of computations in its output channel. It shows how the use of parallel processes can speed up the computation. An important idiom is introduced: the use of ghost variables and a ghost process to demonstrate the correctness of the computation. A second important idiom is the use of data independence in model checking: the behaviour of the data flow machine does not depend on decisions taken on the basis of its inputs, it merely transforms the data. This means that checks for deadlock and livelock freedom of the network of processes in the machine can be carried out with synchronisations rather than communications. In this case, the infinite state data flow machine can be easily model checked with only 24 states.
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### DataFlow.cml
 
 {% raw %}

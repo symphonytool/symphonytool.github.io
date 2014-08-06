@@ -14,11 +14,6 @@ workshop. The CML model of this has been produced jointly by Peter Gorm Larsen, 
 
 
 
-| Properties | Values          |
-| :------------ | :---------- |
-|Language Version:| cml|
-
-
 ### Dwarf.cml
 
 {% raw %}
