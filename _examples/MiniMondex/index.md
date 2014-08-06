@@ -43,6 +43,7 @@ begin
 
     Debit: nat ==> ()
     Debit(n) == value := value - n
+    pre n < value
   
   actions
     Transfer = pay.i?j?n ->
