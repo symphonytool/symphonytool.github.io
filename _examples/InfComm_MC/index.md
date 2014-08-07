@@ -4,10 +4,19 @@ title: InfComm_MC
 ---
 
 ## InfComm_MC
-Author: 
+Author: Adalberto Cajueiro
 
 
-This project needs a description.
+This example shows processes that communicate data from infinite domains. 
+It is useful to show how the CML model checker is able to provide results whereas traditional
+tools (like FDR and PAT) are not. 
+
+For the process P, it is required that the user modify the Model Checker Setup preferences to 2, so 
+the model checker instantiates two integers that are sufficient to produce a deadlock.
+
+For the recursive process PRec, only one instance of natural numbers communicated in each channel 
+(possibly different) is enough to produce a deadlock. Thus, it is required that the user 
+modify the Model Checker Setup preferences to 1.
 
 
 ### inf.cml

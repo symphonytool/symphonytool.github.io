@@ -7,7 +7,10 @@ title: AVDeviceDiscovery_MC
 Author: Klaus Kristensen
 
 
-This is an example produced entirely inside the COMPASS project. The example illustrates the discovery protocol for new audio / video equipment when new devices are turned on/off. This version of the example can be processed using the COMPASS model checker. This cut-down version is produced by Adalberto Cajueiro.
+This is an example produced entirely inside the COMPASS project. 
+The example illustrates the discovery protocol for new audio / video equipment 
+when new devices are turned on/off. This version of the example can be processed 
+using the COMPASS model checker. This cut-down version is produced by Adalberto Cajueiro.
 
 
 

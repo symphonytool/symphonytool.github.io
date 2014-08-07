@@ -4,10 +4,22 @@ title: BitRegister_MC
 ---
 
 ## BitRegister_MC
-Author: 
+Author: Jim Woodcock
 
 
-This project needs a description.
+This simple bit register example has been provided in VDM by a student called Andreas Mueller from Austria. 
+It has been translated to CML by Jim Woodcock and used for testing the Symphony tool.
+
+This example defines the main operators you can conduct on a very simple calculator where you can have 
+registers you can store and load values to and from, and then add and subtract. The original version handles 
+bytes up to 255. This cut-down version was produced by Adalberto Cajueiro to handle bytes up to 4 so it is 
+possible to see the effect of overflows and underflows in the model checker.
+
+The deadlock found by the model checker produced the same trace in the animator (except for the tau-events).
+A good exercise it to run these two plugins to observe the results. 
+
+The original version uses an input as the value to be incremented/decremented. This version uses a value 
+that can be changed in each execution/analysis.
 
 
 ### simpler-register.cml

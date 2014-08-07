@@ -4,10 +4,13 @@ title: BEOStreaming_MC
 ---
 
 ## BEOStreaming_MC
-Author: 
+Author: Klaus Kristensen
 
 
-This project needs a description.
+This is an example produced entirely inside the COMPASS project.
+The example illustrates the Streaming model from B & O. 
+This cut-down version of the example was produced by Klaus Kristensen and adapted by 
+Adalberto Cajueiro to be processed using the COMPASS model checker. 
 
 
 ### BEO_StreamingSoS_MC.cml

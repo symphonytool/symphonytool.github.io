@@ -46,7 +46,10 @@ This is an example produced entirely inside the COMPASS project. The example ill
 
 
 ### AVDeviceDiscovery_MC
-This is an example produced entirely inside the COMPASS project. The example illustrates the discovery protocol for new audio / video equipment when new devices are turned on/off. This version of the example can be processed using the COMPASS model checker. This cut-down version is produced by Adalberto Cajueiro.
+This is an example produced entirely inside the COMPASS project. 
+The example illustrates the discovery protocol for new audio / video equipment 
+when new devices are turned on/off. This version of the example can be processed 
+using the COMPASS model checker. This cut-down version is produced by Adalberto Cajueiro.
 
 
 | | |
@@ -56,22 +59,28 @@ This is an example produced entirely inside the COMPASS project. The example ill
 
 
 ### BEOCoSimulation_MC
-This project needs a description.
+This is an example produced entirely inside the COMPASS project. 
+The example illustrates the CoSimulation example from B & O. 
+This cut-down version of the example was produced by Klaus Kristensen and adapted by 
+Adalberto Cajueiro to be processed using the COMPASS model checker.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|Klaus Kristensen|
 |Details...|[model (zip)](BEOCoSimulation_MC/BEOCoSimulation_MC.zip)  / [show specification](BEOCoSimulation_MC/index.html)|
 
 
 ### BEOStreaming_MC
-This project needs a description.
+This is an example produced entirely inside the COMPASS project.
+The example illustrates the Streaming model from B & O. 
+This cut-down version of the example was produced by Klaus Kristensen and adapted by 
+Adalberto Cajueiro to be processed using the COMPASS model checker.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|Klaus Kristensen|
 |Details...|[model (zip)](BEOStreaming_MC/BEOStreaming_MC.zip)  / [show specification](BEOStreaming_MC/index.html)|
 
 
@@ -92,12 +101,24 @@ In the current version there are a number of proof obligations generated that yo
 
 
 ### BitRegister_MC
-This project needs a description.
+This simple bit register example has been provided in VDM by a student called Andreas Mueller from Austria. 
+It has been translated to CML by Jim Woodcock and used for testing the Symphony tool.
+
+This example defines the main operators you can conduct on a very simple calculator where you can have 
+registers you can store and load values to and from, and then add and subtract. The original version handles 
+bytes up to 255. This cut-down version was produced by Adalberto Cajueiro to handle bytes up to 4 so it is 
+possible to see the effect of overflows and underflows in the model checker.
+
+The deadlock found by the model checker produced the same trace in the animator (except for the tau-events).
+A good exercise it to run these two plugins to observe the results. 
+
+The original version uses an input as the value to be incremented/decremented. This version uses a value 
+that can be changed in each execution/analysis.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|Jim Woodcock|
 |Details...|[model (zip)](BitRegister_MC/BitRegister_MC.zip)  / [show specification](BitRegister_MC/index.html)|
 
 
@@ -127,12 +148,15 @@ The data flow machine transforms its sequence of values in its input channel int
 
 
 ### Dphils_MC
-This project needs a description.
+This simple dining philosophers models the classical example considering two philosofers.
+
+The deadlock found by the model checker produced the same trace in the animator (except for the tau-events).
+A good exercise it to run these two plugins to observe the results.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|Adalberto Cajueiro|
 |Details...|[model (zip)](Dphils_MC/Dphils_MC.zip)  / [show specification](Dphils_MC/index.html)|
 
 
@@ -205,12 +229,21 @@ This project needs a description.
 
 
 ### InfComm_MC
-This project needs a description.
+This example shows processes that communicate data from infinite domains. 
+It is useful to show how the CML model checker is able to provide results whereas traditional
+tools (like FDR and PAT) are not. 
+
+For the process P, it is required that the user modify the Model Checker Setup preferences to 2, so 
+the model checker instantiates two integers that are sufficient to produce a deadlock.
+
+For the recursive process PRec, only one instance of natural numbers communicated in each channel 
+(possibly different) is enough to produce a deadlock. Thus, it is required that the user 
+modify the Model Checker Setup preferences to 1.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|Adalberto Cajueiro|
 |Details...|[model (zip)](InfComm_MC/InfComm_MC.zip)  / [show specification](InfComm_MC/index.html)|
 
 
@@ -225,12 +258,13 @@ This project needs a description.
 
 
 ### InsielCUSSoS_MC
-This project needs a description.
+This example was provided by Paolo and modified by Adalberto Cajueiro. 
+It represents the CUSSos model from Insiel.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|Paolo|
 |Details...|[model (zip)](InsielCUSSoS_MC/InsielCUSSoS_MC.zip)  / [show specification](InsielCUSSoS_MC/index.html)|
 
 
@@ -252,16 +286,6 @@ This project needs a description.
 |------|-------|
 |Author:||
 |Details...|[model (zip)](Library/Library.zip)  / [show specification](Library/index.html)|
-
-
-### MiniMondex
-This project needs a description.
-
-
-| | |
-|------|-------|
-|Author:||
-|Details...|[model (zip)](MiniMondex/MiniMondex.zip)  / [show specification](MiniMondex/index.html)|
 
 
 ### PatientRegister

@@ -4,10 +4,11 @@ title: InsielCUSSoS_MC
 ---
 
 ## InsielCUSSoS_MC
-Author: 
+Author: Paolo
 
 
-This project needs a description.
+This example was provided by Paolo and modified by Adalberto Cajueiro. 
+It represents the CUSSos model from Insiel.  
 
 
 ### CUSSoS_MC.cml
