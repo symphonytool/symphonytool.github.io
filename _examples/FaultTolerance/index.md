@@ -4,10 +4,14 @@ title: FaultTolerance
 ---
 
 ## FaultTolerance
-Author: 
+Author: Andr� Didier
 
 
-This project needs a description.
+This example shows basic concepts about fault-tolerance. The examples' objectives are:
+- DLSimple: shows the warning message about verifying a deadlocked system.
+- FFTSimple: shows the warning message about verifying a full fault tolerant system.
+- LFTSimple: the main objective of obtaining a system that is fault tolerant with respect to a limiting condition.
+- NFTSimple: a system that is not fault tolerant, even with a limiting condition.
 
 
 ### FTConcepts.cml

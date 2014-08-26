@@ -4,10 +4,16 @@ title: Library
 ---
 
 ## Library
-Author: 
+Author: Peter Gorm Larsen and Alvaro Miyazawa and Jim Woodcock
 
 
-This project needs a description.
+This is the library example which originally was posed in the early 1980's and a study
+of 12 specifications of the problem was examined in: "A Study of 12 Specifications of 
+the Library Problem" by Jeanette Wing, July 1988 in IEEE Software. In this model a VDM
+part was introduced by Peter Gorm Larsen and the reactive part was added by Alvaro 
+Miyazawa and Jim Woodcock. The core of this model illustrate the use of most of the
+CML data types. The way guards in the reactive parts are made illustrate how to reach 
+deadlock situations using the CML debugger.
 
 
 ### Library.cml

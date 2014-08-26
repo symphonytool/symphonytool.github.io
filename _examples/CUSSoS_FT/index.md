@@ -1,13 +1,13 @@
 ---
 layout: default
-title: InsielCUSSoS_FT
+title: CUSSoS_FT
 ---
 
-## InsielCUSSoS_FT
-Author: 
+## CUSSoS_FT
+Author: Paolo Casoto, Andr� Didier and Adalberto Cajueiro
 
 
-This project needs a description.
+This example shows a more realistic case of an ERS (Emergency Response System) with detailed communications faults.
 
 
 ### CUSSoS_FT.cml

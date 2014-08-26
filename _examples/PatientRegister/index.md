@@ -4,10 +4,14 @@ title: PatientRegister
 ---
 
 ## PatientRegister
-Author: 
+Author: Quentin Charatan and Aaron Kans
 
 
-This project needs a description.
+This example comes from the book "Formal Software Development: From VDM to Java" 
+written by Quentin Charatan and Aaron Kans. This example illustrate how to model 
+a very abstract patient registration system. The CML model has been made by Jim 
+Woodcock including adding the reactive behaviour. This example illustrate a very 
+simple use of fault behaviour using a dedicated "failure" channel.
 
 
 ### PatientRegister.cml

@@ -4,10 +4,15 @@ title: ProcessManager
 ---
 
 ## ProcessManager
-Author: 
+Author: Quentin Charatan and Aaron Kans
 
 
-This project needs a description.
+This example comes from the book "Formal Software Development: From VDM to Java" 
+written by Quentin Charatan and Aaron Kans. This example illustrate how to model 
+a process manager at a very high level of abstraction. The CML model has been 
+made by Jim Woodcock including adding the reactive behaviour. This CML model
+illustrate how explicit operation also can have pre and post-conditions.
+The example also illustrate fully implicitly defined functions.
 
 
 ### ProcessManager.cml

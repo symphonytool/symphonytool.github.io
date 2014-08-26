@@ -137,6 +137,16 @@ A CML version of this was produced by Peter Gorm Larsen but no graphical user in
 |Details...|[model (zip)](ConwayOlympian/ConwayOlympian.zip)  / [show specification](ConwayOlympian/index.html)|
 
 
+### CUSSoS_FT
+This example shows a more realistic case of an ERS (Emergency Response System) with detailed communications faults.
+
+
+| | |
+|------|-------|
+|Author:|Paolo Casoto, André Didier and Adalberto Cajueiro|
+|Details...|[model (zip)](CUSSoS_FT/CUSSoS_FT.zip)  / [show specification](CUSSoS_FT/index.html)|
+
+
 ### DataFlow
 The data flow machine transforms its sequence of values in its input channel into a sequence of computations in its output channel. It shows how the use of parallel processes can speed up the computation. An important idiom is introduced: the use of ghost variables and a ghost process to demonstrate the correctness of the computation. A second important idiom is the use of data independence in model checking: the behaviour of the data flow machine does not depend on decisions taken on the basis of its inputs, it merely transforms the data. This means that checks for deadlock and livelock freedom of the network of processes in the machine can be carried out with synchronisations rather than communications. In this case, the infinite state data flow machine can be easily model checked with only 24 states.
 
@@ -174,12 +184,16 @@ workshop. The CML model of this has been produced jointly by Peter Gorm Larsen, 
 
 
 ### FaultTolerance
-This project needs a description.
+This example shows basic concepts about fault-tolerance. The examples' objectives are:
+- DLSimple: shows the warning message about verifying a deadlocked system.
+- FFTSimple: shows the warning message about verifying a full fault tolerant system.
+- LFTSimple: the main objective of obtaining a system that is fault tolerant with respect to a limiting condition.
+- NFTSimple: a system that is not fault tolerant, even with a limiting condition.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|André Didier|
 |Details...|[model (zip)](FaultTolerance/FaultTolerance.zip)  / [show specification](FaultTolerance/index.html)|
 
 
@@ -197,7 +211,7 @@ The CML model is written by Jim Woodcock.
 
 
 ### HotelLock
-The final example is rather larger than the other examples: it models the card-key system found in most hotels, where there is no network connecting locks to the front desk, and yet a security property emerges. This demonstrates an idiom for emergence in CML, with an abstract, Olympian view of the specification satisfying a global invariant that is then completely distributed to components that interact only indirectly. Modelling idioms presented include restricting communicable values on channels and debugging techniques for tracing behaviour through parallel processes.
+This example is rather larger than most of the other examples: it models the card-key system found in most hotels, where there is no network connecting locks to the front desk, and yet a security property emerges. This demonstrates an idiom for emergence in CML, with an abstract, Olympian view of the specification satisfying a global invariant that is then completely distributed to components that interact only indirectly. Modelling idioms presented include restricting communicable values on channels and debugging techniques for tracing behaviour through parallel processes.
 
 
 | | |
@@ -219,7 +233,9 @@ The IncubatorController process can be debugged but no input is expected from th
 
 
 ### IncubatorMonitor
-This project needs a description.
+This example comes from the book "Formal Software Development: From VDM to Java" written by Quentin Charatan and Aaron Kans. This example illustrate how to model an incubator monitor at a very abstract level. The CML model of this has been produced by Jim Woodcock. The basic incubation monitor example is simply a device that continually monitors a temperature that either can be increased with an Increment operation or decreased with a Decrement operation. This example illustrate the use of guards since there is a minimum and a maximum temperature controlled by the PreInc and PreDec functions. Whenever the inc and dec channels are used the temperature represented with the state component temp is incremented and decremented by one. Pre and post-conditions are also incorporated in this example.
+
+The IncubatorController process can be debugged but no input is expected from the user at all (except for choosing to go up or down in temperature). Note that you also can set breakpoints and inspect the temp variable when the simulation is stopped at such breakpoints. Note also that it is easy to reach a deadlock by giving a value outside the state invariant. Try it and find out how to repair this.
 
 
 | | |
@@ -247,14 +263,15 @@ modify the Model Checker Setup preferences to 1.
 |Details...|[model (zip)](InfComm_MC/InfComm_MC.zip)  / [show specification](InfComm_MC/index.html)|
 
 
-### InsielCUSSoS_FT
-This project needs a description.
+### InsielAVNetwork_MC
+This example was provided by Zoe Andrews and Jeremy Bryans and modified by Adalberto Cajueiro. 
+It models the AV network, keeping renderers in synchronisation.
 
 
 | | |
 |------|-------|
-|Author:||
-|Details...|[model (zip)](InsielCUSSoS_FT/InsielCUSSoS_FT.zip)  / [show specification](InsielCUSSoS_FT/index.html)|
+|Author:|Zoe Andrews and Jeremy Bryans|
+|Details...|[model (zip)](InsielAVNetwork_MC/InsielAVNetwork_MC.zip)  / [show specification](InsielAVNetwork_MC/index.html)|
 
 
 ### InsielCUSSoS_MC
@@ -279,32 +296,47 @@ This project needs a description.
 
 
 ### Library
-This project needs a description.
+This is the library example which originally was posed in the early 1980's and a study
+of 12 specifications of the problem was examined in: "A Study of 12 Specifications of 
+the Library Problem" by Jeanette Wing, July 1988 in IEEE Software. In this model a VDM
+part was introduced by Peter Gorm Larsen and the reactive part was added by Alvaro 
+Miyazawa and Jim Woodcock. The core of this model illustrate the use of most of the
+CML data types. The way guards in the reactive parts are made illustrate how to reach 
+deadlock situations using the CML debugger.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|Peter Gorm Larsen and Alvaro Miyazawa and Jim Woodcock|
 |Details...|[model (zip)](Library/Library.zip)  / [show specification](Library/index.html)|
 
 
 ### PatientRegister
-This project needs a description.
+This example comes from the book "Formal Software Development: From VDM to Java" 
+written by Quentin Charatan and Aaron Kans. This example illustrate how to model 
+a very abstract patient registration system. The CML model has been made by Jim 
+Woodcock including adding the reactive behaviour. This example illustrate a very 
+simple use of fault behaviour using a dedicated "failure" channel.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|Quentin Charatan and Aaron Kans|
 |Details...|[model (zip)](PatientRegister/PatientRegister.zip)  / [show specification](PatientRegister/index.html)|
 
 
 ### ProcessManager
-This project needs a description.
+This example comes from the book "Formal Software Development: From VDM to Java" 
+written by Quentin Charatan and Aaron Kans. This example illustrate how to model 
+a process manager at a very high level of abstraction. The CML model has been 
+made by Jim Woodcock including adding the reactive behaviour. This CML model
+illustrate how explicit operation also can have pre and post-conditions.
+The example also illustrate fully implicitly defined functions.
 
 
 | | |
 |------|-------|
-|Author:||
+|Author:|Quentin Charatan and Aaron Kans|
 |Details...|[model (zip)](ProcessManager/ProcessManager.zip)  / [show specification](ProcessManager/index.html)|
 
 

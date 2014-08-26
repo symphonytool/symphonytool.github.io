@@ -7,7 +7,7 @@ title: HotelLock
 Author: Jim Woodcock and Peter Gorm Larsen
 
 
-The final example is rather larger than the other examples: it models the card-key system found in most hotels, where there is no network connecting locks to the front desk, and yet a security property emerges. This demonstrates an idiom for emergence in CML, with an abstract, Olympian view of the specification satisfying a global invariant that is then completely distributed to components that interact only indirectly. Modelling idioms presented include restricting communicable values on channels and debugging techniques for tracing behaviour through parallel processes.
+This example is rather larger than most of the other examples: it models the card-key system found in most hotels, where there is no network connecting locks to the front desk, and yet a security property emerges. This demonstrates an idiom for emergence in CML, with an abstract, Olympian view of the specification satisfying a global invariant that is then completely distributed to components that interact only indirectly. Modelling idioms presented include restricting communicable values on channels and debugging techniques for tracing behaviour through parallel processes.
 
 
 ### HotelLock.cml
