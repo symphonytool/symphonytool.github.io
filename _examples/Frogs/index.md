@@ -55,7 +55,7 @@ begin
         and F union {E} union M = {1,...,7} 
   functions
     final_state: set of POS * POS * set of POS -> bool
-    final_state(F,E,M) == (F={5,6,7}) and (E=4) and (M={1,2,3})
+    final_state(f,e,m) == (f={5,6,7}) and (e=4) and (m={1,2,3})
   actions
     FrogMarch =
       ( ( [] i in set POset @ [i in set F and E = i+1] & move_right_1!i -> atomic(F := (F \ {i}) union {i+1}; E := i) )

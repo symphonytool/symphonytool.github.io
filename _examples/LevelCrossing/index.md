@@ -7,7 +7,7 @@ title: LevelCrossing
 Author: 
 
 
-This project needs a description.
+This example is based on Bill Roscoe's CSP specification of a level railroad crossing.
 
 
 ### LevelCrossing.cml

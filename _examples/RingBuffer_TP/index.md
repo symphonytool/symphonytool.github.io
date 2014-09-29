@@ -1,16 +1,17 @@
 ---
 layout: default
-title: RingBuffer
+title: RingBuffer_TP
 ---
 
-## RingBuffer
+## RingBuffer_TP
 Author: 
 
 
-This example demonstrates a ring buffer.
+This example demonstrates a ring buffer, and is appropriate for use with the theorem prover plugin.
 
 
-### RingBuffer.cml
+
+### RingBufferTP.cml
 
 {% raw %}
 ~~~
@@ -52,22 +53,22 @@ This example demonstrates a ring buffer.
 
     process Controller =
     begin
-        state cache:Value
+        state Cache:Value
               size:nat
               top:CellId
               bot:CellId
 
         operations
             Init: Value * nat * CellId * CellId ==> ()
-            Init(c,s,t,b) ==
-              (cache := c;
+            Init(ca,s,t,b) ==
+              (Cache := ca;
                size := s;
                top := t;
                bot := b)
                
              SetCache: Value ==> ()
              SetCache(x) ==
-                cache := x
+                Cache := x
 
             SetSize: nat ==> ()
             SetSize(x) ==
@@ -81,12 +82,12 @@ This example demonstrates a ring buffer.
             SetBot(x) ==
               bot := x
              
-             InitOrig(c:Value, s:nat, t:CellId, b:CellId)
-                post cache=c and size=s and top=t and bot=b
+             InitOrig(Cv:Value, s:nat, t:CellId, b:CellId)
+                post Cache=Cv and size=s and top=t and bot=b
 
-            InitSetCache(x:Value)
-                frame wr cache:Value
-                post cache = x
+            InitSetCache(abc:Value)
+                frame wr Cache:Value
+                post Cache = abc
 
             InitSetSize(x:nat)
                 frame wr size:nat
@@ -113,7 +114,7 @@ This example demonstrates a ring buffer.
 
             Output =
                 [size > 0] &
-                    output!cache ->
+                    output!Cache ->
                         ( [size > 1] &
                             (|~| dumb:Value @
                                 read.bot.<req>.dumb -> read.bot.<ack>?x -> Skip);

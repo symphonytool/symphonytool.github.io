@@ -122,6 +122,52 @@ that can be changed in each execution/analysis.
 |Details...|[model (zip)](BitRegister_MC/BitRegister_MC.zip)  / [show specification](BitRegister_MC/index.html)|
 
 
+### BorderTraffic_S2C
+This example models the traffic flow of a border crossing between two countries as a SysML model suitable for conversion by the S2C plugin.
+
+
+| | |
+|------|-------|
+|Author:||
+|Details...|[model (zip)](BorderTraffic_S2C/BorderTraffic_S2C.zip)  / [show specification](BorderTraffic_S2C/index.html)|
+
+
+### BorderTrafficExplv2
+This example models the traffic flow of a border crossing between two countries in explicit style.
+
+The Border Traffic model aims to describe a contract to which a country's Traffic Management System (TMS) must conform. The model takes a simplified view of a 1-way road which connects two countries A and B, with a border cutting the road in two.
+
+
+| | |
+|------|-------|
+|Author:||
+|Details...|[model (zip)](BorderTrafficExplv2/BorderTrafficExplv2.zip)  / [show specification](BorderTrafficExplv2/index.html)|
+
+
+### BorderTrafficImplicitV2
+This example models the traffic flow of a border crossing between two countries in implicit style.
+
+
+| | |
+|------|-------|
+|Author:||
+|Details...|[model (zip)](BorderTrafficImplicitV2/BorderTrafficImplicitV2.zip)  / [show specification](BorderTrafficImplicitV2/index.html)|
+
+
+### Chronometer
+This simple chronometer example has been taken from the PhD work from Marcel
+Oliveira in CSP that has been moved to CML by Alvaro Miyazawa. This example
+is particular good to illustrate the capabilities of the CML refinement support
+tool. The example contains both an olympian specification of a clock as well as
+a a refined version that distributed it in multiple components.
+
+
+| | |
+|------|-------|
+|Author:|Alvaro Miyazawa|
+|Details...|[model (zip)](Chronometer/Chronometer.zip)  / [show specification](Chronometer/index.html)|
+
+
 ### ConwayOlympian
 This example illustrate Conways game of life (see http://en.wikipedia.org/wiki/Conway's_Game_of_Life) which has has interesting emergent properties. A VDM-SL version of this example was produced by Nick Battle and Peter Gorm Larsen and Claus Ballegaard Nielsen produced a graphical user interface showing the evolution of life following the rules of the game of life. The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 1.Any live cell with fewer than two live neighbours dies, as if caused by under-population.
@@ -286,7 +332,7 @@ It represents the CUSSos model from Insiel.
 
 
 ### LevelCrossing
-This project needs a description.
+This example is based on Bill Roscoe's CSP specification of a level railroad crossing.
 
 
 | | |
@@ -341,13 +387,23 @@ The example also illustrate fully implicitly defined functions.
 
 
 ### RingBuffer
-This project needs a description.
+This example demonstrates a ring buffer.
 
 
 | | |
 |------|-------|
 |Author:||
 |Details...|[model (zip)](RingBuffer/RingBuffer.zip)  / [show specification](RingBuffer/index.html)|
+
+
+### RingBuffer_TP
+This example demonstrates a ring buffer, and is appropriate for use with the theorem prover plugin.
+
+
+| | |
+|------|-------|
+|Author:||
+|Details...|[model (zip)](RingBuffer_TP/RingBuffer_TP.zip)  / [show specification](RingBuffer_TP/index.html)|
 
 
 ### Scheduler
