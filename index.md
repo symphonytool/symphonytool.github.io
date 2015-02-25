@@ -8,7 +8,7 @@ The Symphony IDE is an open-source tool originally developed in the [EU COMPASS 
 
 ### Getting the Symphony IDE.
 
-Downloads of ready-to-run versions of the Symphony IDE are presently hosted on SourceForge; the current version is [Release 0.3.6](https://sourceforge.net/projects/compassresearch/files/Releases/0.3.6/), and version 0.4.0 will be released by the end of September 2014.
+Downloads of ready-to-run versions of the Symphony IDE are presently hosted on SourceForge; the current version is [Release 0.4.0](https://sourceforge.net/projects/compassresearch/files/Releases/0.4.0/).
 
 ### Getting documentation.
 
